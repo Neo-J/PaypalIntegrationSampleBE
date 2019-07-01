@@ -21,7 +21,7 @@ public class ProductController {
             ,999
             ,"iPhone");
 
-    // Return product information per id
+    // Return product mock information per id
     @GetMapping("/{id}")
     public Product getProduct(@PathVariable String id) {
 

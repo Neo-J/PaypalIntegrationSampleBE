@@ -2,6 +2,8 @@ package org.neo.shopping_cart.vo;
 
 /**
  * Created by NeoJiang on 30/6/2019.
+ *
+ * Product object returned to front end
  */
 public class Product {
 
