@@ -19,6 +19,7 @@ import java.io.IOException;
  */
 @RestController
 @RequestMapping("/api/payment")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class PaymentController extends PayPalClient{
 
     // Set up the server to receive a call from the client

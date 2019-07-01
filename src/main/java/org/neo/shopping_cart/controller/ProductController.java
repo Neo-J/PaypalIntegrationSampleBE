@@ -1,16 +1,14 @@
 package org.neo.shopping_cart.controller;
 
 import org.neo.shopping_cart.vo.Product;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by NeoJiang on 27/6/2019.
  */
 @RestController
 @RequestMapping("/api/product")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class ProductController {
 
     private Product macbook = new Product("1"
